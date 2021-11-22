@@ -1,0 +1,31 @@
+#show{float:right}
+body{
+    background-color: rgba(17, 101, 255, 0.822);
+}
+
+h1{
+    color: cornflowerblue;
+    background-color: darkblue;
+    margin-top: 0px;
+}
+p{
+    font-size: 30px;
+}
+canvas{
+    border: 7px solid darkblue;
+    border-radius: 25px ;
+    margin-top: 100px;
+    animation-name: fade;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes fade{
+    from{box-shadow:4px 4px 90px blue}
+    to{box-shadow:4px 4px 90px turquoise;}
+}
+#timer{
+    float: right;
+}
+#score{
+    float: left;
+}
